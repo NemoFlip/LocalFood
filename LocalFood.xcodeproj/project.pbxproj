@@ -14,6 +14,7 @@
 		E1127C8027E4E046007A37DC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1127C7F27E4E046007A37DC /* HomeView.swift */; };
 		E1127C8227E4E066007A37DC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1127C8127E4E066007A37DC /* HomeViewModel.swift */; };
 		E1127C8427E50314007A37DC /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1127C8327E50313007A37DC /* ButtonStyles.swift */; };
+		E144714927EF918F00D61D9B /* LottieBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E144714827EF918F00D61D9B /* LottieBackground.swift */; };
 		E14A455B27E7549D00BAAAE9 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14A455A27E7549D00BAAAE9 /* ItemModel.swift */; };
 		E14A455E27E758EB00BAAAE9 /* ItemViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14A455D27E758EB00BAAAE9 /* ItemViewRow.swift */; };
 		E14A456227E75AAA00BAAAE9 /* StructsAndEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14A456127E75AAA00BAAAE9 /* StructsAndEnums.swift */; };
@@ -21,10 +22,13 @@
 		E17E820627E74CA200FEC028 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E17E820527E74CA200FEC028 /* GoogleService-Info.plist */; };
 		E17E820927E74E8500FEC028 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E17E820827E74E8500FEC028 /* FirebaseAuth */; };
 		E17E820B27E74E8500FEC028 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E17E820A27E74E8500FEC028 /* FirebaseFirestore */; };
+		E1BE915027EF8C7C00B32D35 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BE914F27EF8C7C00B32D35 /* LottieView.swift */; };
 		E1CD8F3E27E5166B00E902D5 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CD8F3D27E5166B00E902D5 /* MenuView.swift */; };
+		E1D26CF527EF8A3400C7DA9E /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E1D26CF427EF8A3400C7DA9E /* Lottie */; };
 		E1D954F227E8B2EE00613AAC /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D954F127E8B2EE00613AAC /* CartModel.swift */; };
 		E1D954F427E8B98300613AAC /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D954F327E8B98300613AAC /* CartView.swift */; };
 		E1FB11A527E8C37E0063C0A1 /* CartItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FB11A427E8C37E0063C0A1 /* CartItemView.swift */; };
+		E1FC6AA927EF8BC70009B5B3 /* 98857-thank-you.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FC6AA827EF8BC70009B5B3 /* 98857-thank-you.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,14 +40,17 @@
 		E1127C7F27E4E046007A37DC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E1127C8127E4E066007A37DC /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		E1127C8327E50313007A37DC /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		E144714827EF918F00D61D9B /* LottieBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieBackground.swift; sourceTree = "<group>"; };
 		E14A455A27E7549D00BAAAE9 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		E14A455D27E758EB00BAAAE9 /* ItemViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewRow.swift; sourceTree = "<group>"; };
 		E14A456127E75AAA00BAAAE9 /* StructsAndEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructsAndEnums.swift; sourceTree = "<group>"; };
 		E17E820527E74CA200FEC028 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E1BE914F27EF8C7C00B32D35 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		E1CD8F3D27E5166B00E902D5 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		E1D954F127E8B2EE00613AAC /* CartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
 		E1D954F327E8B98300613AAC /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		E1FB11A427E8C37E0063C0A1 /* CartItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemView.swift; sourceTree = "<group>"; };
+		E1FC6AA827EF8BC70009B5B3 /* 98857-thank-you.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "98857-thank-you.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +61,7 @@
 				E14A456527E766C000BAAAE9 /* SDWebImageSwiftUI in Frameworks */,
 				E17E820927E74E8500FEC028 /* FirebaseAuth in Frameworks */,
 				E17E820B27E74E8500FEC028 /* FirebaseFirestore in Frameworks */,
+				E1D26CF527EF8A3400C7DA9E /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +87,7 @@
 		E1127C6D27E4DCFC007A37DC /* LocalFood */ = {
 			isa = PBXGroup;
 			children = (
+				E1FC6AA827EF8BC70009B5B3 /* 98857-thank-you.json */,
 				E17E820527E74CA200FEC028 /* GoogleService-Info.plist */,
 				E1127C6E27E4DCFC007A37DC /* LocalFoodApp.swift */,
 				E1127C7027E4DCFC007A37DC /* ContentView.swift */,
@@ -134,6 +143,7 @@
 			children = (
 				E14A455D27E758EB00BAAAE9 /* ItemViewRow.swift */,
 				E1FB11A427E8C37E0063C0A1 /* CartItemView.swift */,
+				E144714827EF918F00D61D9B /* LottieBackground.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -142,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				E14A456127E75AAA00BAAAE9 /* StructsAndEnums.swift */,
+				E1BE914F27EF8C7C00B32D35 /* LottieView.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -166,6 +177,7 @@
 				E17E820827E74E8500FEC028 /* FirebaseAuth */,
 				E17E820A27E74E8500FEC028 /* FirebaseFirestore */,
 				E14A456427E766C000BAAAE9 /* SDWebImageSwiftUI */,
+				E1D26CF427EF8A3400C7DA9E /* Lottie */,
 			);
 			productName = LocalFood;
 			productReference = E1127C6B27E4DCFC007A37DC /* LocalFood.app */;
@@ -198,6 +210,7 @@
 			packageReferences = (
 				E17E820727E74E8500FEC028 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				E14A456327E766C000BAAAE9 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				E1D26CF327EF8A3400C7DA9E /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = E1127C6C27E4DCFC007A37DC /* Products */;
 			projectDirPath = "";
@@ -215,6 +228,7 @@
 			files = (
 				E1127C7627E4DCFD007A37DC /* Preview Assets.xcassets in Resources */,
 				E17E820627E74CA200FEC028 /* GoogleService-Info.plist in Resources */,
+				E1FC6AA927EF8BC70009B5B3 /* 98857-thank-you.json in Resources */,
 				E1127C7327E4DCFD007A37DC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E144714927EF918F00D61D9B /* LottieBackground.swift in Sources */,
 				E1CD8F3E27E5166B00E902D5 /* MenuView.swift in Sources */,
 				E1127C8027E4E046007A37DC /* HomeView.swift in Sources */,
 				E1127C7127E4DCFC007A37DC /* ContentView.swift in Sources */,
@@ -234,6 +249,7 @@
 				E1D954F227E8B2EE00613AAC /* CartModel.swift in Sources */,
 				E1D954F427E8B98300613AAC /* CartView.swift in Sources */,
 				E1127C8427E50314007A37DC /* ButtonStyles.swift in Sources */,
+				E1BE915027EF8C7C00B32D35 /* LottieView.swift in Sources */,
 				E14A455B27E7549D00BAAAE9 /* ItemModel.swift in Sources */,
 				E1FB11A527E8C37E0063C0A1 /* CartItemView.swift in Sources */,
 				E14A455E27E758EB00BAAAE9 /* ItemViewRow.swift in Sources */,
@@ -460,6 +476,14 @@
 				minimumVersion = 8.0.0;
 			};
 		};
+		E1D26CF327EF8A3400C7DA9E /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -477,6 +501,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E17E820727E74E8500FEC028 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
+		};
+		E1D26CF427EF8A3400C7DA9E /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1D26CF327EF8A3400C7DA9E /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

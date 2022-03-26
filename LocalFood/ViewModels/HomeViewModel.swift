@@ -23,6 +23,7 @@ class HomeViewModel: NSObject, CLLocationManagerDelegate, ObservableObject {
     // Cart Data
     @Published var cartItems: [CartModel] = []
     @Published var ordered = false
+    @Published var showThanking = false
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
         //Checking location access
         switch manager.authorizationStatus {
@@ -169,8 +170,6 @@ class HomeViewModel: NSObject, CLLocationManagerDelegate, ObservableObject {
                 if let error = error {
                     print("Error deleting order: \(error)")
                     return
-                } else {
-                    self.ordered = true
                 }
             }
             return
@@ -186,7 +185,7 @@ class HomeViewModel: NSObject, CLLocationManagerDelegate, ObservableObject {
             ])
         }
         ordered = true
-        
+        showThanking = true
         db.collection("Users").document(currentUser.uid).setData([
             "ordered_food": data,
             "total_cost": calculateTotalPrice(),
@@ -196,7 +195,7 @@ class HomeViewModel: NSObject, CLLocationManagerDelegate, ObservableObject {
                 print("Error uploading order: \(error)")
                 return
             }
-            self.ordered = false
+//            self.cartItems = []
             print("Success")
             return
         }
