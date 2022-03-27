@@ -12,18 +12,16 @@ struct CartView: View {
     @Environment(\.presentationMode) var presentationMode
     var body: some View {
         ZStack {
-            ZStack {
-                VStack {
-                    navBarSection
-                    
-                    cartItemsSection
-                    // Bottom
-                    
-                    cartTotalSection
-                }
-                .navigationBarHidden(true)
-                .navigationBarBackButtonHidden(true)
+            VStack {
+                navBarSection
+                
+                cartItemsSection
+                // Bottom
+                
+                cartTotalSection
             }
+            .navigationBarHidden(true)
+            .navigationBarBackButtonHidden(true)
             if homeViewModel.showThanking && !homeViewModel.cartItems.isEmpty {
                 LottieBackground(showThanks: $homeViewModel.ordered)
                     .onTapGesture {
@@ -31,6 +29,7 @@ struct CartView: View {
                     }
             }
         }
+        
     }
 }
 
